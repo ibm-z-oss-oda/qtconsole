@@ -3,7 +3,7 @@
 # Copyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 
-import ipython_genutils.text as text
+from . import text as text
 
 from qtpy import QtCore, QtGui, QtWidgets
 

@@ -8,7 +8,7 @@ from warnings import warn
 
 from qtpy import QtCore, QtGui, QtWidgets
 
-from ipython_genutils.path import ensure_dir_exists
+from .path import ensure_dir_exists
 from traitlets import Bool
 from pygments.util import ClassNotFound
 

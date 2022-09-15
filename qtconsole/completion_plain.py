@@ -4,7 +4,7 @@
 # Distributed under the terms of the Modified BSD License.
 
 from qtpy import QtCore, QtGui, QtWidgets
-import ipython_genutils.text as text
+from . import text as text
 
 
 class CompletionPlain(QtWidgets.QWidget):

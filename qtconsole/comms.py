@@ -11,7 +11,7 @@ import logging
 
 from traitlets.config import LoggingConfigurable
 
-from ipython_genutils.importstring import import_item
+from .importstring import import_item
 
 import uuid
 

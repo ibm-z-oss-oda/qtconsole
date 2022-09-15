@@ -19,7 +19,7 @@ from qtpy import QtCore, QtGui, QtPrintSupport, QtWidgets
 from qtconsole.rich_text import HtmlExporter
 from qtconsole.util import MetaQObjectHasTraits, get_font, superQ
 
-from ipython_genutils.text import columnize
+from .text import columnize
 from traitlets.config.configurable import LoggingConfigurable
 from traitlets import Bool, Enum, Integer, Unicode
 

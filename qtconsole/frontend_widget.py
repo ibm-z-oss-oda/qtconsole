@@ -9,7 +9,7 @@ import uuid
 import re
 
 from qtpy import QtCore, QtGui, QtWidgets
-from ipython_genutils.importstring import import_item
+from .importstring import import_item
 
 from qtconsole.base_frontend_mixin import BaseFrontendMixin
 from traitlets import Any, Bool, Instance, Unicode, DottedObjectName, default
